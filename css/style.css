@@ -387,6 +387,14 @@ img { max-width: 100%; }
   padding-bottom: 12px; border-bottom: 1px solid var(--border);
 }
 .skill-category .tags li { font-size: 0.78rem; }
+.skill-line {
+  color: var(--text-muted); font-size: 0.95rem; line-height: 1.8;
+}
+.skills-end {
+  margin-top: 28px;
+  font-family: var(--font-mono); font-size: 0.9rem;
+  color: var(--text-faint);
+}
 
 /* ============ EXPERIÊNCIA ============ */
 .timeline { margin-top: 48px; position: relative; padding-left: 36px; }
