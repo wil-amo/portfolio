@@ -1,4 +1,4 @@
-# Portfolio — William Amo Pereira
+# Portfolio — William Amo 
 
 Portfólio de Desenvolvedor Backend Java (foco em vaga júnior).
 
