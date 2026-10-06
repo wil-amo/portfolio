@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>William Amo — Desenvolvedor Backend Java</title>
+  <meta name="description" content="Portfólio de William Amo Pereira — Desenvolvedor Backend Java em Campinas/SP. Java, Spring Boot, SQL, APIs REST, com experiência real em sustentação e análise de incidentes." />
+  <meta property="og:title" content="William Amo — Desenvolvedor Backend Java" />
+  <meta property="og:description" content="Portfólio de William Amo Pereira — Java, Spring Boot, SQL, APIs REST." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d1520'/><text x='50' y='68' font-size='52' font-family='monospace' font-weight='bold' text-anchor='middle' fill='%232dd4bf'>W</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="navbar" id="navbar">
+    <nav class="container nav-inner" aria-label="Navegação principal">
+      <a href="#inicio" class="logo">W<span class="logo-accent">A</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+        <li><a href="#formacao" class="nav-link">Formação</a></li>
+        <li><a href="#contato" class="nav-link nav-cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-badge"><span class="dot"></span> Disponível para oportunidades Júnior</p>
+          <h1>William Amo Pereira</h1>
+          <h2 class="hero-title">Desenvolvedor <span class="accent-text">Backend Java</span></h2>
+          <p class="hero-sub">
+            Escrevo APIs e automações com Java, Spring Boot e SQL — e trazio comigo anos de
+            experiência em sustentação de sistemas: entendo logs, incidentes e o que é
+            manter software rodando em produção.
+          </p>
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="william-cv.pdf" download="william-amo-cv.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Baixar CV
+            </a>
+          </div>
+          <ul class="hero-social" aria-label="Redes sociais">
+            <li><a href="https://github.com/wil-amo" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/william-amo/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a></li>
+            <li><a href="mailto:william.amo.ti@gmail.com" aria-label="E-mail">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </a></li>
+            <li><a href="https://wa.me/5519983255383" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.1 4.49.71.31 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35zM12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88a9.83 9.83 0 0 1 7 2.9 9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.87-9.9 9.87zm8.42-18.29A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.16-3.47-8.4z"/></svg>
+            </a></li>
+          </ul>
+          <p class="hero-location">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Campinas, SP — Brasil
+          </p>
+        </div>
+
+        <div class="hero-code" aria-hidden="true">
+          <div class="window">
+            <div class="window-bar"><span class="red"></span><span class="yellow"></span><span class="green"></span><span class="window-title">SustentacaoApp.java</span></div>
+            <pre class="code-body"><code><span class="ln"> 1</span> <span class="kw">public class</span> <span class="cls">DevBackend</span> {
+<span class="ln"> 2</span>   <span class="kw">private final</span> <span class="typ">String</span> nome = <span class="str">"William Amo"</span>;
+<span class="ln"> 3</span>   <span class="kw">private final</span> <span class="typ">String</span>[] stack = {
+<span class="ln"> 4</span>     <span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>, <span class="str">"SQL"</span>,
+<span class="ln"> 5</span>     <span class="str">"REST"</span>, <span class="str">"Git"</span>, <span class="str">"Maven"</span>
+<span class="ln"> 6</span>   };
+<span class="ln"> 7</span>
+<span class="ln"> 8</span>   <span class="kw">public</span> <span class="typ">String</span> <span class="fn">resumo</span>() {
+<span class="ln"> 9</span>     <span class="kw">return new</span> <span class="cls">Sustentacao</span>()
+<span class="ln">10</span>       .<span class="fn">entendeProducao</span>()
+<span class="ln">11</span>       .<span class="fn">analisaIncidentes</span>()
+<span class="ln">12</span>       .<span class="fn">escreveCodigo</span>()
+<span class="ln">13</span>       .<span class="fn">vemSerDev</span>();
+<span class="ln">14</span>   }
+<span class="ln">15</span> }</code></pre>
+          </div>
+          <div class="floating-chip chip-1">☕ Java 21</div>
+          <div class="floating-chip chip-2">🌱 Spring Boot</div>
+          <div class="floating-chip chip-3">🗄️ SQL</div>
+        </div>
+      </div>
+      <a href="#sobre" class="scroll-hint" aria-label="Rolar para a seção Sobre">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+      </a>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <p class="section-tag">// sobre mim</p>
+        <h2 class="section-title">De sustentação a desenvolvimento — com bagagem de produção</h2>
+        <div class="about-grid">
+          <p class="about-text">
+            Sou profissional de TI com experiência em <strong>suporte técnico, sustentação de
+            aplicações e análise de incidentes</strong> em sistemas corporativos de grande porte.
+            Diantei problemas com SQL, APIs REST, análise de logs e troubleshooting — sempre com
+            foco em resolução, documentação técnica e melhoria contínua.
+          </p>
+          <p class="about-text">
+            Hoje estou em <strong>evolução para Desenvolvimento de Software</strong>, aplicando
+            Java, Spring Boot, JPA/Hibernate, JDBC, Git, Maven e APIs REST em projetos práticos —
+            incluindo automações reais que usei no meu dia a dia de trabalho para reduzir
+            acompanhamento manual e melhorar o controle operacional.
+          </p>
+          <p class="about-text">
+            O diferencial que levo para uma vaga <strong>júnior</strong>: além de escrever código,
+            sei como software se comporta em produção, comunico-me bem com equipes técnicas e
+            negócio, e documento o que faço.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-number">4+</span><span class="stat-label">anos em TI</span></div>
+          <div class="stat"><span class="stat-number">6</span><span class="stat-label">projetos no GitHub</span></div>
+          <div class="stat"><span class="stat-number">3</span><span class="stat-label">empresas · ERP e sistemas corporativos</span></div>
+          <div class="stat"><span class="stat-number">∞</span><span class="stat-label">vontade de aprender</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section section-alt">
+      <div class="container">
+        <p class="section-tag">// projetos</p>
+        <h2 class="section-title">Código que escrevi e uso de verdade</h2>
+        <p class="section-sub">Projetos públicos no meu GitHub — do fundamental ao avançado.</p>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-top">
+              <span class="project-icon">🤖</span>
+              <div class="project-links">
+                <a href="https://github.com/wil-amo/monitor-inteligente-chamados" target="_blank" rel="noopener" aria-label="Ver código no GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Monitor Inteligente de Chamados</h3>
+            <p class="project-badge">⭐ usado no trabalho real</p>
+            <p class="project-desc">
+              Automação em Java para monitoramento de chamados com cálculo de SLA, regras de
+              negócio e notificações via Microsoft Teams (Webhook). Reduziu acompanhamento
+              manual na operação.
+            </p>
+            <ul class="project-points">
+              <li>Manipulação de datas e regras de negócio</li>
+              <li>Mensagens HTML dinâmicas via Webhook HTTP</li>
+              <li>Configurações sensíveis externalizadas</li>
+            </ul>
+            <ul class="tags">
+              <li>Java</li><li>Webhook</li><li>Automação</li><li>Git</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-icon">🏦</span>
+              <div class="project-links">
+                <a href="https://github.com/wil-amo/sistema-bancario" target="_blank" rel="noopener" aria-label="Ver código no GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Sistema Bancário — Evolução Arquitetural</h3>
+            <p class="project-desc">
+              Projeto para consolidar fundamentos de backend Java com evolução progressiva de
+              arquitetura em três versões.
+            </p>
+            <ul class="project-points">
+              <li><strong>V1</strong> — POO em memória</li>
+              <li><strong>V2</strong> — JDBC, SQL, transações e triggers</li>
+              <li><strong>V3</strong> — Spring Boot, Spring Data JPA, Hibernate e API REST</li>
+            </ul>
+            <ul class="tags">
+              <li>Java</li><li>Spring Boot</li><li>JPA/Hibernate</li><li>JDBC</li><li>SQL</li><li>Maven</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-icon">📋</span>
+              <div class="project-links">
+                <a href="https://github.com/wil-amo/Gerenciador-de-Tarefas" target="_blank" rel="noopener" aria-label="Ver código no GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Gerenciador de Tarefas</h3>
+            <p class="project-desc">
+              Aplicação de console em Java para gestão de tarefas com estruturas de dados
+              próprias — fila de pendências e pilha de histórico de ações.
+            </p>
+            <ul class="tags">
+              <li>Java</li><li>Estruturas de Dados</li><li>Fila</li><li>Pilha</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-icon">🔧</span>
+              <div class="project-links">
+                <a href="https://github.com/wil-amo/Crud_Jdbc" target="_blank" rel="noopener" aria-label="Ver código no GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>CRUD JDBC</h3>
+            <p class="project-desc">
+              Estudo prático de persistência com JDBC puro: conexão com banco relacional,
+              CRUD completo e boas práticas com recursos e statements.
+            </p>
+            <ul class="tags">
+              <li>Java</li><li>JDBC</li><li>SQL</li><li>MySQL</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="more-projects">
+          <p>Também no GitHub:</p>
+          <a href="https://github.com/wil-amo/java-collections-study" target="_blank" rel="noopener" class="chip-link">java-collections-study</a>
+          <a href="https://github.com/wil-amo/arvore-binaria-interativa" target="_blank" rel="noopener" class="chip-link">árvore-binária-interativa</a>
+          <a href="https://github.com/wil-amo?tab=repositories" target="_blank" rel="noopener" class="chip-link chip-all">ver todos →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-tag">// skills</p>
+        <h2 class="section-title">Ferramentas do dia a dia</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <ul class="tags">
+              <li>Java</li><li>Spring Boot</li><li>JPA / Hibernate</li><li>JDBC</li>
+              <li>APIs REST</li><li>Maven</li><li>POO</li><li>MVC</li><li>Clean Code</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Banco de Dados</h3>
+            <ul class="tags">
+              <li>SQL</li><li>MySQL</li><li>PostgreSQL</li><li>Transações</li><li>Triggers</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Ferramentas & DevOps</h3>
+            <ul class="tags">
+              <li>Git</li><li>GitHub</li><li>Postman</li><li>Swagger / OpenAPI</li>
+              <li>Linux</li><li>Windows</li><li>Docker (básico)</li><li>Jira</li><li>ServiceNow</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Ops & Qualidade</h3>
+            <ul class="tags">
+              <li>Análise de logs</li><li>Troubleshooting</li><li>Grafana</li><li>Datadog</li>
+              <li>Testes funcionais</li><li>Documentação técnica</li><li>Sustentação</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Metodologias & Soft</h3>
+            <ul class="tags">
+              <li>Scrum</li><li>Kanban</li><li>Comunicação</li><li>Trabalho em equipe</li><li>Melhoria contínua</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experiencia" class="section section-alt">
+      <div class="container">
+        <p class="section-tag">// experiência</p>
+        <h2 class="section-title">Trajetória profissional</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">02/2025 — atual · Híbrido</p>
+              <h3>Analista de Suporte | Sustentação de Sistemas</h3>
+              <p class="timeline-company">Thomson Reuters</p>
+              <ul class="timeline-points">
+                <li>Atendimento técnico com foco em SLA, qualidade e comunicação clara.</li>
+                <li>Investigação de incidentes: consultas SQL, reprodução de cenários e coleta de evidências.</li>
+                <li><strong>Desenvolvi automação em Java</strong> para monitoramento de chamados, cálculo de SLA e alertas via Microsoft Teams — reduzindo acompanhamento manual.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">2023 — 2024 · Remoto</p>
+              <h3>Analista de Sustentação</h3>
+              <p class="timeline-company">Digiage</p>
+              <ul class="timeline-points">
+                <li>Sustentação de aplicações em produção: incidentes, falhas de integração e demandas técnicas.</li>
+                <li>Investigação via APIs REST/SOAP, SQL, análise de logs e validação de fluxos.</li>
+                <li>Monitoramento com Grafana e Datadog; apoio em deploys, rollbacks e validações pós-implantação.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">2022 — 2023 · Remoto</p>
+              <h3>Analista de Sustentação — Estagiário</h3>
+              <p class="timeline-company">Digiage</p>
+              <ul class="timeline-points">
+                <li>Triagem de incidentes, suporte a APIs e integrações (WSO2).</li>
+                <li>Monitoramento de ambientes Linux e análise inicial de logs.</li>
+                <li>Apoio em rollbacks e validações em produção.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <p class="timeline-date">2021 — 2022 · Remoto</p>
+              <h3>Suporte de Sistemas — Estágio</h3>
+              <p class="timeline-company">Forti Informática & Comércio</p>
+              <ul class="timeline-points">
+                <li>Suporte a sistema ERP de automação comercial: dúvidas, problemas operacionais e regras de negócio.</li>
+                <li>Análise inicial de inconsistências e direcionamento de tratativas.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="section">
+      <div class="container">
+        <p class="section-tag">// formação</p>
+        <h2 class="section-title">Acadêmica & complementar</h2>
+        <div class="education-grid">
+          <div class="edu-card">
+            <span class="edu-icon">🎓</span>
+            <div>
+              <h3>Análise e Desenvolvimento de Sistemas</h3>
+              <p class="edu-inst">Metrocamp Brazil · 2021 — 2023</p>
+            </div>
+          </div>
+          <div class="edu-card">
+            <span class="edu-icon">📖</span>
+            <div>
+              <h3>Inglês — em curso</h3>
+              <p class="edu-inst">2025 — presente</p>
+            </div>
+          </div>
+        </div>
+        <h3 class="courses-title">Cursos & certificações</h3>
+        <ul class="courses-grid">
+          <li>Java — Udemy</li>
+          <li>Linux — FIAP</li>
+          <li>WSO2 API Manager — WSO2</li>
+          <li>WSO2 Micro Integrator — WSO2</li>
+          <li>IA Integrations — Thomson Reuters</li>
+          <li>Front-end básico — Proz Educação</li>
+          <li>Scrum & Kanban</li>
+          <li>Arquitetura MVC & Clean Code</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section contact">
+      <div class="container contact-inner">
+        <p class="section-tag">// contato</p>
+        <h2 class="section-title">Vamos conversar?</h2>
+        <p class="section-sub">
+          Buscando oportunidade como <strong>Desenvolvedor Backend Java Júnior</strong>.
+          Respondo rápido por e-mail ou LinkedIn.
+        </p>
+        <div class="contact-actions">
+          <a href="mailto:william.amo.ti@gmail.com" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            william.amo.ti@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/william-amo/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+          <a href="https://github.com/wil-amo" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+          <a href="william-cv.pdf" download="william-amo-cv.pdf" class="btn btn-outline" target="_blank" rel="noopener">Baixar CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> William Amo Pereira · Campinas, SP</p>
+      <p class="footer-note">Feito com HTML, CSS e JavaScript — <a href="https://github.com/wil-amo/portfolio" target="_blank" rel="noopener">código no GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
